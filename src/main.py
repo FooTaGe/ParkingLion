@@ -1,7 +1,10 @@
+
+#!/usr/bin/env python
+
 import numpy as np
 import cv2 as cv
 
-cap = cv.VideoCapture('work.flv')
+cap = cv.VideoCapture('../work.flv')
 while(cap.isOpened()):
     ret, frame = cap.read()
     
@@ -11,7 +14,7 @@ while(cap.isOpened()):
     
     #gray = cv.cvtColor(frame, cv.COLOR_BGR2GRAY)
     #cut frame [y1:y2, x1:x2]
-    crop_img = frame[0:100, 0:200]
+    crop_img = frame[469:527, 808:886]
     #
 
     cv.imshow('frame',crop_img)

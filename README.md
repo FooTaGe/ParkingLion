@@ -8,5 +8,7 @@
 
 [usign video opencv](https://docs.opencv.org/3.4.0/dd/d43/tutorial_py_video_display.html)
 
-[isntalling opencv for windows](https://www.codingforentrepreneurs.com/blog/install-opencv-3-for-python-on-windows/)
+[installing opencv for windows](https://www.codingforentrepreneurs.com/blog/install-opencv-3-for-python-on-windows/)
+
+[transparent overlays](https://www.pyimagesearch.com/2016/03/07/transparent-overlays-with-opencv/)
 
